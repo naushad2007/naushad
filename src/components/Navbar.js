@@ -19,9 +19,7 @@ export default function Navbar(props) {
                             <Link className="nav-link" to="/about">{props.aboutText}</Link>
                         </li>
                         
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/about">{props.blogText}</Link>
-                        </li>
+                       
                     </ul>
                     <div className={`form-check form-switch text-${props.mode==='light'?'dark':'light'}`}>
                         <input className="form-check-input" onClick={props.toggleMode} type="checkbox" id="flexSwitchCheckDefault"/>
@@ -43,7 +41,4 @@ Navbar.defaultProps = {
     aboutText: 'About'
   };
   
-  Navbar.defaultProps = {
-    title: 'Set title here',
-    aboutText: 'Blog'
-  };
+  
