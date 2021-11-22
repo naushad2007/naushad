@@ -1,7 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-import Blog from './components/Blog';
 import About from './components/About';
 import React, { useState } from 'react';
 import Alert from './components/Alert';
@@ -47,12 +46,8 @@ function App() {
     <Switch>
     {/* /users --> Component 1
         /users/home --> Component 2 */}
-          <Route exact path="/blog">
+        
           <Route exact path="/about">
-             
-            <Blog mode={mode} />
-            <About mode={mode} />
-          </Route>
           </Route>
           <Route exact path="/">
             <TextForm showAlert={showAlert} heading="Try TextUtils - word counter, character counter, remove extra spaces" mode={mode}/>
