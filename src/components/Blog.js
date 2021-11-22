@@ -58,8 +58,3 @@ export default function About(props) {
         </div>
     )
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-S
