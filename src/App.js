@@ -47,7 +47,10 @@ function App() {
     <Switch>
     {/* /users --> Component 1
         /users/home --> Component 2 */}
+          <Route exact path="/blog">
           <Route exact path="/about">
+             
+            <Blog mode={mode} />
             <About mode={mode} />
           </Route>
           <Route exact path="/">
