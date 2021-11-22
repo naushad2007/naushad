@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function About(props) {
+export default function Blog (props) {
 
     // const [myStyle, setMyStyle] = useState({
     //     color: 'black',
