@@ -1,8 +1,8 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
+import Blog from './components/Blog';
 import About from './components/About';
-import About from './components/Blog';
 import React, { useState } from 'react';
 import Alert from './components/Alert';
 import {
