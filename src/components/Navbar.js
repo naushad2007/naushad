@@ -42,3 +42,8 @@ Navbar.defaultProps = {
     title: 'Set title here',
     aboutText: 'About'
   };
+  
+  Navbar.defaultProps = {
+    title: 'Set title here',
+    aboutText: 'Blog'
+  };
